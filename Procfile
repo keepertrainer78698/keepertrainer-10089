@@ -1,1 +1,1 @@
-web: gunicorn keepertrainer-10082.wsgi --log-file -
+web: gunicorn keepertrainer-10082.wsgi
