@@ -124,3 +124,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+STATIC_ROOT = ''
+MEDIA_ROOT = ''
+
+STATICFILES_DIR = (os.path.join('static'),)
+
+# List of finder classes that know how to find static files in various locations
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+)
